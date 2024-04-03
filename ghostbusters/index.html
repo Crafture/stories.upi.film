@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html amp lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <title>Ghostbusters - Crafture</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.universalpictures.nl/favicon.png">
+    <link rel="canonical" href="https://stories.upi.film/ghostbusters" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
+    <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <style amp-boilerplate>
+        body {
+            -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        }
+
+        @-webkit-keyframes -amp-start {
+            from {
+                visibility: hidden;
+            }
+
+            to {
+                visibility: visible;
+            }
+        }
+
+        @-moz-keyframes -amp-start {
+            from {
+                visibility: hidden;
+            }
+
+            to {
+                visibility: visible;
+            }
+        }
+
+        @-ms-keyframes -amp-start {
+            from {
+                visibility: hidden;
+            }
+
+            to {
+                visibility: visible;
+            }
+        }
+
+        @-o-keyframes -amp-start {
+            from {
+                visibility: hidden;
+            }
+
+            to {
+                visibility: visible;
+            }
+        }
+
+        @keyframes -amp-start {
+            from {
+                visibility: hidden;
+            }
+
+            to {
+                visibility: visible;
+            }
+        }
+
+        .zoom{
+            margin: -4%;
+        }
+    </style>
+    <noscript>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: none;
+                -moz-animation: none;
+                -ms-animation: none;
+                animation: none;
+            }
+        </style>
+    </noscript>
+</head>
+
+<body>
+    <amp-story standalone title="Ghostbusters" publisher="The Crafture Team" supports-landscape>
+        <amp-analytics type="gtag" data-credentials="include">
+            <script type="application/json">
+              {
+                "vars": {
+                  "gtag_id": "G-R82XKZBNFP",
+                  "config": {
+                    "G-R82XKZBNFP": {
+                      "groups": "default"
+                    }
+                  }
+                },
+                "triggers": {
+                  "storyProgress": {
+                    "on": "story-page-visible",
+                    "vars": {
+                      "event_name": "custom",
+                      "event_action": "story_progress",
+                      "event_category": "${title}",
+                      "event_label": "${storyPageId}",
+                      "send_to": ["G-R82XKZBNFP"]
+                    }
+                  },
+                  "storyEnd": {
+                    "on": "story-last-page-visible",
+                    "vars": {
+                      "event_name": "custom",
+                      "event_action": "story_complete",
+                      "event_category": "${title}",
+                      "send_to": ["G-R82XKZBNFP"]
+                    }
+                  },
+                  "trackClickThrough": {
+                    "on": "story-click-through",
+                    "tagName": "a",
+                    "request": "click",
+                    "send_to": ["G-R82XKZBNFP"]
+                  },
+                  "trackFocusState": {
+                    "on": "story-focus",
+                    "tagName": "a",
+                    "request": "click",
+                    "send_to": ["G-R82XKZBNFP"]
+                  }
+                }
+              }
+            </script>
+        </amp-analytics>
+        
+        <amp-story-page id="my-zero-page" auto-advance-after="5s">
+            <amp-story-grid-layer template="fill" autoplay>
+                <amp-img src="assets/CRAFTURE_UPI_GBFE_WEBSTORIES_00.jpg" height="1080" width="1920" alt="">
+                </amp-img>
+            </amp-story-grid-layer>
+        </amp-story-page>    
+
+        <amp-story-page id="my-second-page" auto-advance-after="video2">
+            <amp-story-grid-layer template="fill">
+                <amp-video layout="fill" autoplay id="video2">
+                    <source
+                        src="assets/CRAFTURE_UPI_GBFE_WEBSTORIES_01.mp4"
+                        height="1920" width="1080" type="video/mp4" />
+                    <div fallback>
+                        <p>This browser does not support the video element.</p>
+                    </div>
+                </amp-video>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="my-third-page" auto-advance-after="video3">
+            <amp-story-grid-layer template="fill">
+                <amp-video layout="fill" autoplay id="video3">
+                    <source
+                        src="assets/CRAFTURE_UPI_GBFE_WEBSTORIES_02.mp4"
+                        height="1920" width="1080" type="video/mp4" />
+                    <div fallback>
+                        <p>This browser does not support the video element.</p>
+                    </div>
+                </amp-video>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="my-fourth-page" auto-advance-after="video4">
+            <amp-story-grid-layer template="fill">
+                <amp-video layout="fill" autoplay id="video4">
+                    <source
+                        src="assets/CRAFTURE_UPI_GBFE_WEBSTORIES_03.mp4"
+                        height="1920" width="1080" type="video/mp4" />
+                    <div fallback>
+                        <p>This browser does not support the video element.</p>
+                    </div>
+                </amp-video>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="my-fifth-page" auto-advance-after="video5">
+            <amp-story-grid-layer template="fill">
+                <amp-video layout="fill" autoplay id="video5">
+                    <source
+                        src="assets/CRAFTURE_UPI_GBFE_WEBSTORIES_04.mp4"
+                        height="1920" width="1080" type="video/mp4" />
+                    <div fallback>
+                        <p>This browser does not support the video element.</p>
+                    </div>
+                </amp-video>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="my-sixth-page" auto-advance-after="video6">
+            <amp-story-grid-layer template="fill">
+                <amp-video layout="fill" autoplay id="video6">
+                    <source
+                        src="assets/CRAFTURE_UPI_GBFE_WEBSTORIES_05.mp4"
+                        height="1920" width="1080" type="video/mp4" />
+                    <div fallback>
+                        <p>This browser does not support the video element.</p>
+                    </div>
+                </amp-video>
+            </amp-story-grid-layer>
+        </amp-story-page>
+    </amp-story>
+</body>
+
+</html>
